@@ -1,8 +1,13 @@
 import React from 'react'
+import AboutNav from '../components/AboutNav'
+import AboutDescrip from '../components/AboutNav'
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <AboutNav/>
+      <AboutDescrip/>
+    </div>
   )
 }
 

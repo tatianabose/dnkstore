@@ -1,4 +1,5 @@
 import React from 'react'
+import Banners from '../components/Banners'
 import BrandSlider from '../components/BrandSlider'
 import EndSection from '../components/EndSection'
 import Featured from '../components/Featured'
@@ -11,6 +12,7 @@ function Home() {
     <div>
       <HomeNav/>
       <BrandSlider/>
+      <Banners/>
       <Featured/>
       <Special/>
       <Offers/>

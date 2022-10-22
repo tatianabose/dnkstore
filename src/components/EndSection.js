@@ -1,12 +1,18 @@
 import React from 'react'
 import BlackLogo from '../DNK/BlackLogo.png'
 import './Components.css';
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import GoogleIcon from '@mui/icons-material/Google';
+import { fontSize } from '@mui/system';
 
 function EndSection() {
     return (
         <div>
             <section>
-                <hr/>
+                <hr />
 
                 <div className='sale-ad'>
                     <h2>SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h2>
@@ -45,16 +51,28 @@ function EndSection() {
                         <button className='bluebtn'>SUBSCRIBE</button>
                     </div>
 
+
+
+
+                </div>
+                <hr />
+                <div className='main-end'>
+
+                    <div>
+                    <p>Copyright © 2022 Brandstore. Powered by Brandstore.</p>
+                    </div>
                    
 
-                   
+                    <ul>
+                        <li>< FacebookRoundedIcon style={{ fontSize: "20px" }} /></li>
+                        <li><InstagramIcon style={{ fontSize: "20px" }} /></li>
+                        <li> <TwitterIcon style={{ fontSize: "20px" }} /></li>
+                        <li>< YouTubeIcon style={{ fontSize: "20px" }} /></li>
+                        <li><  GoogleIcon style={{ fontSize: "20px" }} /></li>
+                    </ul>
                 </div>
 
-                <div className='main-end'>
-                <hr />
-                        <a>Copyright © 2022 Brandstore. Powered by Brandstore.</a>
 
-                    </div>
 
             </section>
         </div>

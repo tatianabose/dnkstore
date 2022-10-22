@@ -100,6 +100,61 @@
     transition: 0.2s;
 }
 
+.img-for-bg{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 18px;
+}
+
+.img-bg-color{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 29vw;
+    height: 80vh;
+}
+
+.bg-text{
+    padding:  300px 8%;
+    height: 100%;
+    display: flex;
+    flex-flow: column; 
+}
+
+.bg-text h3{
+    color: white;
+    font-size: 30px;
+}
+
+.bg-text p{
+    color: white;
+    line-height: 30px;
+    margin: 15px 0px;
+}
+
+.bg-text button{
+    width: 50%;
+}
+
+.img-bg-1{
+    background-image: url(../DNK/women.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.img-bg-2{
+    background-image: url(../DNK/men.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.img-bg-3{
+    background-image: url(../DNK/footwear.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .feature-section{
     min-height: 500px;
 }
@@ -122,6 +177,8 @@
     margin: 15px 0px;
 }
 
+
+
 .product img{
     width: 230px;
 }
@@ -142,10 +199,11 @@
 }
 
 .featured-grid{
+    margin: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    margin: 2% 5%;
+   
 }
 
 .banner{
@@ -181,6 +239,7 @@
 .banner-items p{
     width: 50%;
     margin: 30px 0px;
+    line-height: 30px;
 }
 
 .banner-items button{
@@ -291,15 +350,58 @@
     background-color: #07629b;
 }
 
-
-.main-end a{
-    height: 10vh;
+.main-end {
+    margin: 1.5% 2%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin: 1% 5%;
+}
+
+.main-end ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.main-end li{
+    margin: 0px 10px;
+}
+
+.main-end li:hover{
+    cursor: pointer;
+    color: #07629b;
+
+}
+
+.main-end p{
     color: rgba(0, 0, 0, 0.689);
 }
 
+
+/*
+
+ABOUT PAGE CSS STARTS HERE 
+
+*/
+
+.about-bg{
+    background-image: url(../DNK/banner-04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about-bg-color{
+    background-color: rgba(17, 17, 150, 0.3);
+    height: 80vh;
+}
+
+.about-head{
+    color: white;
+    text-align: center;
+    margin: 100px;
+    font-size: 45px;
+}
 
 
 /* RESPONSIVENESS STARTS HERE */
@@ -321,10 +423,45 @@
         font-size: 22px;
     }
 
+    .featured-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 2px;
+    }
+
+    .product img{
+        width: 200px;;
+    }
+
     .sale-ad h2{
         font-size: 20px;
     }
 }
+
+@media screen  and  (max-width: 900px){
+   
+
+    .bg-text h3{
+        font-size: 25px;
+        margin-top: -100px;
+    }
+    
+    .bg-text p{
+        line-height: 25px;
+        margin: 10px 0px;
+    }
+
+    .img-bg-color{
+        width: 100%;
+    }
+
+    .bg-text button{
+        width: 100%;
+    }
+    
+}
+    
+
 
 @media screen and (max-width: 800px){
 
@@ -334,6 +471,19 @@
     .sale-ad h2{
         font-size: 18px;
     }
+
+    .img-for-bg{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .featured-grid{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    
 
     .end-abt{
         display: grid;
@@ -352,12 +502,20 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .product img{
+        width: 180px;
+    }
+
     .sale-ad h2{
         font-size: 18px;
     }
 }
 
 @media screen and (max-width: 600px){
+    .for-intro h1{
+        width: 60%;
+    }
+
     .end-abt{
         display: grid;
         grid-template-columns: 1fr ;
@@ -365,11 +523,15 @@
     }
 
     .banner-items h3{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .banner-items h2{
         font-size: 30px;
+    }
+
+    .product img{
+        width: 170px;
     }
 
     
@@ -382,15 +544,96 @@
         width: 30%;
     }
 
+    .main-end{
+        display: flex;
+        flex-flow: column;
+        margin: 15px 0px;
+    }
+
+    .main-end li{
+        margin-top: 15px ;
+    }
+
     .banner{
         background-position: center;
+    }
+
+    .feature-head h2{
+        font-size: 38px;
+    }
+
+    .feature-head hr{
+        width: 100px;
     }
 }
 
 @media screen and (max-width: 500px){
+    
+    .for-intro h1{
+        width: 85%;
+    }
+
     .abt-offers{
         display: grid;
         grid-template-columns: 1fr;
         padding: 10%;
+    }
+
+    .banner-items p{
+        line-height: 22px;
+    }
+
+    .bg-text h3{
+        margin-top: -15px;
+    }
+
+    .product img{
+        width: 150px;
+    }
+
+    .feature-head h2{
+        font-size: 32px;
+    }
+
+    .feature-head hr{
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .for-intro h1{
+        width: 50%;
+        font-size: 50px;
+    }
+
+
+    .featured-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .product img{
+        width: 170px;
+    }
+
+    .main-end p{
+        font-size: 12px;
+    }
+
+    .main-end li{
+        font-size: 10px;
+    }
+
+    .bg-text p{
+        margin: 15px 0px;
+    }
+
+    .banner-items h3{
+        margin-top: 50px;
+    }
+
+    .banner-items p{
+        line-height: 30px;
+        width: 100%;
     }
 }
