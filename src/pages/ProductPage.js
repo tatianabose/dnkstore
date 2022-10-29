@@ -1,24 +1,16 @@
-import React from 'react'
-import Additional from '../components/Additional'
-import DescriptionNav from '../components/DescriptionNav'
-import EndSection from '../components/EndSection'
+import React from "react";
+import DNav from "../components/DNav";
+import ProductsNav from "../components/ProductsNav";
+import ProductTop from "../components/ProductTop";
 
-import ProductsNav from '../components/ProductsNav'
-import ProductTop from '../components/ProductTop'
-import RelatedProducts from '../components/RelatedProducts'
-import Reviews from '../components/Reviews'
 function ProductPage() {
   return (
     <div>
-        <ProductsNav/>
-        <ProductTop/>
-        <Reviews/>
-
-        <RelatedProducts/>
-        <EndSection/>
-      
+      <ProductsNav />
+      <ProductTop />
+      <DNav />
     </div>
-  )
+  );
 }
 
-export default ProductPage
+export default ProductPage;
