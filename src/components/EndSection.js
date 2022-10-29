@@ -5,7 +5,7 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import GoogleIcon from '@mui/icons-material/Google';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { fontSize } from '@mui/system';
 
 function EndSection() {
@@ -66,9 +66,9 @@ function EndSection() {
                     <ul>
                         <li>< FacebookRoundedIcon style={{ fontSize: "20px" }} /></li>
                         <li><InstagramIcon style={{ fontSize: "20px" }} /></li>
-                        <li> <TwitterIcon style={{ fontSize: "20px" }} /></li>
+                        <li>< FavoriteBorderIcon style={{ fontSize: "20px" }} /></li>
                         <li>< YouTubeIcon style={{ fontSize: "20px" }} /></li>
-                        <li><  GoogleIcon style={{ fontSize: "20px" }} /></li>
+                        <li> <TwitterIcon style={{ fontSize: "20px" }} /></li>
                     </ul>
                 </div>
 

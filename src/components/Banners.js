@@ -19,6 +19,7 @@ function Banners() {
                         </div>
                     </div>
 
+
                     <div className='img-bg-2'>
                         <div className='img-bg-color'>
                             <div className='bg-text'>
