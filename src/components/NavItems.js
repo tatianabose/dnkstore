@@ -18,9 +18,9 @@ function NavItems() {
             <div>
                 <ul>
             <li><NavLink style={{textDecoration :"none", color:"white"}} to="/everything">EVERYTHING</NavLink></li>
-                    <li>WOMEN</li>
-                    <li>MEN</li>
-                    <li>ACCESSORIES</li>
+                    <li><NavLink style={{textDecoration :"none", color:"white"}} to="/women">WOMEN</NavLink></li>
+                    <li><NavLink style={{textDecoration :"none", color:"white"}} to="/men">MEN</NavLink></li>
+                    <li><NavLink style={{textDecoration :"none", color:"white"}} to="/accessories">ACCESSORIES</NavLink></li>
                 </ul>
             </div>
         

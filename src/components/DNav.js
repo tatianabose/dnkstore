@@ -5,8 +5,8 @@ function DNav() {
   const navLinkStyles = ({ isActive }) => {
     return {
       fontWeight: isActive ? "800" : "600",
-
-      borderBottom: isActive ? "4px solid #6C7A9C" : "none",
+      color: isActive ? "#000" : "#000",
+      borderTop: isActive ? "3px solid #000" : "none",
       textDecoration: "none",
       borderWidth: "50%",
     };

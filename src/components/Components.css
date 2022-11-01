@@ -752,7 +752,7 @@ ABOUT PAGE CSS STARTS HERE
     display: grid;
     grid-template-columns: 1fr 4fr;
     background-color: #F5F7F9;
-    grid-gap: 20px;
+   
 }
 
 /**/
@@ -850,6 +850,7 @@ ABOUT PAGE CSS STARTS HERE
 .results{
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -1122,6 +1123,11 @@ ABOUT PAGE CSS STARTS HERE
     
 }
 
+.reviews2 button{
+    width: 10%;
+    margin: 20px 5px;
+}
+
 
 /* RESPONSIVENESS STARTS HERE */
 
@@ -1130,6 +1136,57 @@ ABOUT PAGE CSS STARTS HERE
     .follow-us {
         display: none;
     }
+
+    .product-div{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .product-bar-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    .bgimgone {
+        display: flex;
+      
+    }
+
+    .bgimg3info{
+        padding: 80px;
+         
+     }
+
+     .bgimg4info{
+        padding: 80px;
+    }
+
+    .bgimg3info h4{
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    
+    .bgimg3info p{
+        font-size: 15px;
+        line-height: 28px;
+        margin-bottom: 18px;
+       
+    }
+
+    .bgimgcolor img{
+        height: 485px;
+    
+    }
+
+    .reviews2 button{
+        width: 15%;
+        
+    }
+
+    .product-bar-bg{
+        margin: 1%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -1137,7 +1194,15 @@ ABOUT PAGE CSS STARTS HERE
         display: none;
     }
 
+    .product-left-link ul{
+        display: none;
+    }
+
     .right-link ul {
+        display: none;
+    }
+
+    .product-right-link ul{
         display: none;
     }
 
@@ -1157,7 +1222,13 @@ ABOUT PAGE CSS STARTS HERE
 
     .product img {
         width: 200px;
-        ;
+        
+    }
+
+    
+    .bgimgcolor img{
+        height: 450px;
+    
     }
 
     .sale-ad h2 {
@@ -1177,6 +1248,11 @@ ABOUT PAGE CSS STARTS HERE
     .main-contact-places{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .top-grid{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .for-grid{
@@ -1204,6 +1280,29 @@ ABOUT PAGE CSS STARTS HERE
 
     .bg-text button {
         width: 100%;
+    }
+
+    .product-bar-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+    .bgimg3info{
+        padding: 50px;
+         
+     }
+
+     .bgimg4info{
+        padding: 50px;
+         
+     }
+
+
+    
+    .bgimgcolor img{
+        height: 405px;
+    
     }
 
 }
@@ -1242,12 +1341,46 @@ ABOUT PAGE CSS STARTS HERE
         grid-template-columns: 1fr;
     }
 
+    .product-bar-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 10px;
+    }
+
+      
+    .bgimgcolor img{
+        height: 360px;
+    
+    }
+
+    
+    .bgimg4info{
+        padding: 30px;
+         
+     }
+
+ 
+     .bgimg3info{
+        padding: 30px;
+         
+     }
+
+     .for-box{
+        display: flex;
+        flex-flow: column;
+     }
 
 
     .end-abt {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
+    }
+
+    
+    .reviews2 button{
+        width: 20%;
+        
     }
 }
 
@@ -1269,6 +1402,34 @@ ABOUT PAGE CSS STARTS HERE
         font-size: 18px;
     }
 
+       
+    .bgimgcolor img{
+        height: 315px;
+    
+    }
+
+    .bgimg4info{
+        padding: 10px;
+         
+     }
+
+     .bgimg4info h4{
+       font-size: 20px;
+         
+     }
+
+ 
+     .bgimg3info h4{
+        font-size: 20px;
+         
+     }
+
+ 
+     .bgimg3info{
+        padding: 10px;
+         
+     }
+
     .descrip-right img {
         width: 100%;
         height: 60vh;
@@ -1279,6 +1440,17 @@ ABOUT PAGE CSS STARTS HERE
     .for-intro h1 {
         width: 60%;
     }
+
+    .bp-img img{
+        height: 550px;
+    }
+
+        
+    .reviews2 button{
+        width: 25%;
+        
+    }
+    
 
     .contact-head{
         font-size: 40px;
@@ -1336,6 +1508,39 @@ ABOUT PAGE CSS STARTS HERE
         
     }
 
+           
+    .bgimgcolor img{
+        height: 270px;
+    
+    }
+
+    .bgimg4info h4{
+        font-size: 18px;
+          
+      }
+ 
+  
+      .bgimg3info h4{
+         font-size: 18px;
+          
+      }
+
+      
+    .bgimg4info p{
+        font-size: 15px;
+          
+      }
+ 
+  
+      .bgimg3info p{
+         font-size: 15px;
+          
+      }
+
+      .topic-3 hr{
+        width: 80%;
+      }
+
   
 
 }
@@ -1344,6 +1549,16 @@ ABOUT PAGE CSS STARTS HERE
 
     .for-intro h1 {
         width: 85%;
+    }
+
+    .bp-img img{
+        height: 450px;
+    }
+    
+
+    .bgimgone{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .abt-offers {
@@ -1389,6 +1604,37 @@ ABOUT PAGE CSS STARTS HERE
         font-size: 35px;
     }
 
+    .product-bar-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 5px;
+    }
+
+    .product-bar-bg{
+        margin: 10%;
+    }
+
+    .results{
+        display: flex;
+        flex-flow: column;
+    }
+    
+    .bgimg3{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .bgimgcolor img{
+        height: 350px;
+    
+    }
+
+    .related-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+  
 
     .main-contact-places {
         display: grid;
@@ -1402,6 +1648,15 @@ ABOUT PAGE CSS STARTS HERE
         font-size: 50px;
     }
 
+    .bp-img img{
+        height: 350px;
+    }
+    
+
+    .product-bar-bg{
+        margin: 1%;
+    }
+
 
     .featured-grid {
         display: grid;
@@ -1411,6 +1666,8 @@ ABOUT PAGE CSS STARTS HERE
     .product img {
         width: 170px;
     }
+
+    
 
     .main-end p {
         font-size: 12px;
@@ -1451,6 +1708,13 @@ ABOUT PAGE CSS STARTS HERE
     .contact-head{
         font-size: 30px;
     }
+
+          
+    .reviews2 button{
+        width: 35%;
+        
+    }
+    
 
 
 

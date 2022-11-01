@@ -8,6 +8,9 @@ import ProductPage from "./pages/ProductPage";
 import Description from "./components/Description";
 import Additional from "./components/Additional";
 import Reviews from "./components/Reviews";
+import Women from "./pages/Women";
+import Men from "./pages/Men";
+import Assoseries from "./pages/Assoseries";
 
 function App() {
   return (
@@ -18,6 +21,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/everything" element={<Everything />} />
+          <Route path="/women" element={<Women />} />
+          <Route path="/men" element={<Men/>} />
+          <Route path="/accessories" element={<Assoseries />} />
+         
           <Route
             path="/product/desc"
             element={
